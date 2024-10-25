@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Proyecto con Bootstrap</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p>Ingresa tu Nombre: </p>
+    <input type="text" id="nombreUsuario" >
+    <button onclick="Saludar()">Saludar</button>
+    <script>
+        function Saludar(){
+            alert("Hola "+ document.getElementById("nombreUsuario").value)
+        }
+    </script>
+</body>
+</html>
